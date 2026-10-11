@@ -8,9 +8,9 @@ public class T1 {
         for (int s : salary) {
             sum += s;
             min = Math.min(min, s);
-            max = Match.max(max,s);
+            max = Math.max(max,s);
         }
-        return (double) (sum - min - max) / (salary.lenght - 2);
+        return (double) (sum - min - max) / (salary.length - 2);
     }
 }
           
