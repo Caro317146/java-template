@@ -1,8 +1,8 @@
 package homework.h02;
 public class T1 {
     public double average (int[] salary) {
-        int min = salary [0];
-        int max = salary [0];
+        int min = salary[0];
+        int max = salary[0];
         int sum = 0;
       
         for (int s : salary) {
@@ -15,6 +15,4 @@ public class T1 {
 }
           
 
-// base
-// https://leetcode.com/problems/add-binary/
-public class T1 {}
+
